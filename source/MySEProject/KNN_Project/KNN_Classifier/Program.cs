@@ -18,3 +18,8 @@ internal class Program
 
     }
 }
+int k = 1;
+Console.WriteLine("With k = 1");
+int predicted = Classify(unknown, trainData,
+  numClasses, k);
+Console.WriteLine("Predicted class = " + predicted);
